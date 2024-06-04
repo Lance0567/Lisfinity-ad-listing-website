@@ -1,0 +1,102 @@
+2022-11-16T04:22:15+00:00 CRITICAL Uncaught Error: Attempt to assign property "meta" on bool in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php:447
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1171): Lisfinity\REST_API\Taxonomies\TermRoute->store_term(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/lisfinity/v1/t...', Array, NULL)
+#2 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xampp\htdocs\barangayAds\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/lisfinity/v1/t...')
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(780): WP->parse_request('')
+#9 C:\xampp\htdocs\barangayAds\wp-includes\functions.php(1332): WP->main('')
+#10 C:\xampp\htdocs\barangayAds\wp-blog-header.php(16): wp()
+#11 C:\xampp\htdocs\barangayAds\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php on line 447
+
+2022-11-16T04:37:10+00:00 CRITICAL Uncaught Error: Attempt to assign property "meta" on bool in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php:447
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1171): Lisfinity\REST_API\Taxonomies\TermRoute->store_term(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/lisfinity/v1/t...', Array, NULL)
+#2 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xampp\htdocs\barangayAds\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/lisfinity/v1/t...')
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(780): WP->parse_request('')
+#9 C:\xampp\htdocs\barangayAds\wp-includes\functions.php(1332): WP->main('')
+#10 C:\xampp\htdocs\barangayAds\wp-blog-header.php(16): wp()
+#11 C:\xampp\htdocs\barangayAds\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php on line 447
+
+2022-11-16T04:47:11+00:00 CRITICAL Uncaught Error: Attempt to assign property "meta" on bool in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php:447
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1171): Lisfinity\REST_API\Taxonomies\TermRoute->store_term(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/lisfinity/v1/t...', Array, NULL)
+#2 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xampp\htdocs\barangayAds\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/lisfinity/v1/t...')
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(780): WP->parse_request('')
+#9 C:\xampp\htdocs\barangayAds\wp-includes\functions.php(1332): WP->main('')
+#10 C:\xampp\htdocs\barangayAds\wp-blog-header.php(16): wp()
+#11 C:\xampp\htdocs\barangayAds\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php on line 447
+
+2022-11-16T04:49:44+00:00 CRITICAL Uncaught Error: Attempt to assign property "meta" on bool in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php:447
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1171): Lisfinity\REST_API\Taxonomies\TermRoute->store_term(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/lisfinity/v1/t...', Array, NULL)
+#2 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xampp\htdocs\barangayAds\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/lisfinity/v1/t...')
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(780): WP->parse_request('')
+#9 C:\xampp\htdocs\barangayAds\wp-includes\functions.php(1332): WP->main('')
+#10 C:\xampp\htdocs\barangayAds\wp-blog-header.php(16): wp()
+#11 C:\xampp\htdocs\barangayAds\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php on line 447
+
+2022-11-16T04:51:37+00:00 CRITICAL Uncaught Error: Attempt to assign property "meta" on bool in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php:447
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1171): Lisfinity\REST_API\Taxonomies\TermRoute->store_term(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/lisfinity/v1/t...', Array, NULL)
+#2 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xampp\htdocs\barangayAds\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/lisfinity/v1/t...')
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(780): WP->parse_request('')
+#9 C:\xampp\htdocs\barangayAds\wp-includes\functions.php(1332): WP->main('')
+#10 C:\xampp\htdocs\barangayAds\wp-blog-header.php(16): wp()
+#11 C:\xampp\htdocs\barangayAds\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php on line 447
+
+2022-11-16T04:53:18+00:00 CRITICAL Uncaught Error: Attempt to assign property "meta" on bool in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php:447
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1171): Lisfinity\REST_API\Taxonomies\TermRoute->store_term(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/lisfinity/v1/t...', Array, NULL)
+#2 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xampp\htdocs\barangayAds\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/lisfinity/v1/t...')
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(780): WP->parse_request('')
+#9 C:\xampp\htdocs\barangayAds\wp-includes\functions.php(1332): WP->main('')
+#10 C:\xampp\htdocs\barangayAds\wp-blog-header.php(16): wp()
+#11 C:\xampp\htdocs\barangayAds\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php on line 447
+

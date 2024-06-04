@@ -1,0 +1,23 @@
+2022-11-19T03:51:29+00:00 CRITICAL Uncaught Error: Attempt to assign property "meta" on bool in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php:447
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1171): Lisfinity\REST_API\Taxonomies\TermRoute->store_term(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/lisfinity/v1/t...', Array, NULL)
+#2 C:\xampp\htdocs\barangayAds\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xampp\htdocs\barangayAds\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/lisfinity/v1/t...')
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp.php(780): WP->parse_request('')
+#9 C:\xampp\htdocs\barangayAds\wp-includes\functions.php(1332): WP->main('')
+#10 C:\xampp\htdocs\barangayAds\wp-blog-header.php(16): wp()
+#11 C:\xampp\htdocs\barangayAds\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\REST_API\Taxonomies\TermRoute.php on line 447
+
+2022-11-19T05:38:34+00:00 CRITICAL Out of memory (allocated 113246208) (tried to allocate 32768 bytes) in C:\xampp\htdocs\barangayAds\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Marketing.php on line 1
+
+2022-11-19T06:16:02+00:00 CRITICAL Out of memory (allocated 121634816) (tried to allocate 32768 bytes) in C:\xampp\htdocs\barangayAds\wp-content\plugins\wp-mail-smtp\src\Admin\Area.php on line 905
+
+2022-11-19T10:34:27+00:00 CRITICAL Out of memory (allocated 121634816) (tried to allocate 32768 bytes) in C:\xampp\htdocs\barangayAds\wp-content\plugins\facebook-for-woocommerce\facebook-commerce-events-tracker.php on line 425
+

@@ -1,0 +1,2 @@
+2022-11-13T02:46:25+00:00 CRITICAL Out of memory (allocated 111149056) (tried to allocate 20480 bytes) in C:\xampp\htdocs\barangayAds\wp-content\plugins\elementor\includes\managers\controls.php on line 777
+

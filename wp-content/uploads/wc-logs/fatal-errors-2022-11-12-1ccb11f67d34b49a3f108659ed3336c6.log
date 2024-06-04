@@ -1,0 +1,167 @@
+2022-11-12T09:31:49+00:00 CRITICAL Uncaught Carbon_Fields\Exception\Incorrect_Syntax_Exception: Field name "_title" already registered in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Exception\Incorrect_Syntax_Exception.php:22
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(213): Carbon_Fields\Exception\Incorrect_Syntax_Exception::raise('Field name "_ti...')
+#1 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(196): Carbon_Fields\Widget\Widget->register_field_name('_title')
+#2 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(72): Carbon_Fields\Widget\Widget->add_fields(Array)
+#3 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\Widgets\Blocks\PagesWidget.php(15): Carbon_Fields\Widget\Widget->setup('carbon_fields_p...', 'Lisfinity > Pag...', 'Used to display...', Array)
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-widget-factory.php(62): Lisfinity\Widgets\Blocks\PagesWidget->__construct()
+#5 C:\xampp\htdocs\barangayAds\wp-includes\widgets.php(115): WP_Widget_Factory->register('Lisfinity\\Widge...')
+#6 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\Widgets\Widgets.php(18): register_widget('Lisfinity\\Widge...')
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): Lisfinity\Widgets\Widgets->register_widgets('')
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\barangayAds\wp-includes\widgets.php(1854): do_action('widgets_init')
+#11 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#12 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\barangayAds\wp-settings.php(617): do_action('init')
+#15 C:\xampp\htdocs\barangayAds\wp-config.php(99): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\barangayAds\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\barangayAds\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\barangayAds\wp-admin\site-health.php(10): require_once('C:\\xampp\\htdocs...')
+#19 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Exception\Incorrect_Syntax_Exception.php on line 22
+
+2022-11-12T09:32:06+00:00 CRITICAL Uncaught Carbon_Fields\Exception\Incorrect_Syntax_Exception: Field name "_title" already registered in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Exception\Incorrect_Syntax_Exception.php:22
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(213): Carbon_Fields\Exception\Incorrect_Syntax_Exception::raise('Field name "_ti...')
+#1 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(196): Carbon_Fields\Widget\Widget->register_field_name('_title')
+#2 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(72): Carbon_Fields\Widget\Widget->add_fields(Array)
+#3 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\Widgets\Blocks\PagesWidget.php(15): Carbon_Fields\Widget\Widget->setup('carbon_fields_p...', 'Lisfinity > Pag...', 'Used to display...', Array)
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-widget-factory.php(62): Lisfinity\Widgets\Blocks\PagesWidget->__construct()
+#5 C:\xampp\htdocs\barangayAds\wp-includes\widgets.php(115): WP_Widget_Factory->register('Lisfinity\\Widge...')
+#6 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\Widgets\Widgets.php(18): register_widget('Lisfinity\\Widge...')
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): Lisfinity\Widgets\Widgets->register_widgets('')
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\barangayAds\wp-includes\widgets.php(1854): do_action('widgets_init')
+#11 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#12 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\barangayAds\wp-settings.php(617): do_action('init')
+#15 C:\xampp\htdocs\barangayAds\wp-config.php(99): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\barangayAds\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\barangayAds\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\barangayAds\wp-admin\site-health.php(10): require_once('C:\\xampp\\htdocs...')
+#19 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Exception\Incorrect_Syntax_Exception.php on line 22
+
+2022-11-12T09:32:10+00:00 CRITICAL Uncaught Carbon_Fields\Exception\Incorrect_Syntax_Exception: Field name "_title" already registered in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Exception\Incorrect_Syntax_Exception.php:22
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(213): Carbon_Fields\Exception\Incorrect_Syntax_Exception::raise('Field name "_ti...')
+#1 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(196): Carbon_Fields\Widget\Widget->register_field_name('_title')
+#2 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(72): Carbon_Fields\Widget\Widget->add_fields(Array)
+#3 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\Widgets\Blocks\PagesWidget.php(15): Carbon_Fields\Widget\Widget->setup('carbon_fields_p...', 'Lisfinity > Pag...', 'Used to display...', Array)
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-widget-factory.php(62): Lisfinity\Widgets\Blocks\PagesWidget->__construct()
+#5 C:\xampp\htdocs\barangayAds\wp-includes\widgets.php(115): WP_Widget_Factory->register('Lisfinity\\Widge...')
+#6 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\Widgets\Widgets.php(18): register_widget('Lisfinity\\Widge...')
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): Lisfinity\Widgets\Widgets->register_widgets('')
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\barangayAds\wp-includes\widgets.php(1854): do_action('widgets_init')
+#11 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#12 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\barangayAds\wp-settings.php(617): do_action('init')
+#15 C:\xampp\htdocs\barangayAds\wp-config.php(99): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\barangayAds\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\barangayAds\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\barangayAds\wp-admin\site-health.php(10): require_once('C:\\xampp\\htdocs...')
+#19 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Exception\Incorrect_Syntax_Exception.php on line 22
+
+2022-11-12T09:32:24+00:00 CRITICAL Uncaught Carbon_Fields\Exception\Incorrect_Syntax_Exception: Field name "_title" already registered in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Exception\Incorrect_Syntax_Exception.php:22
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(213): Carbon_Fields\Exception\Incorrect_Syntax_Exception::raise('Field name "_ti...')
+#1 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(196): Carbon_Fields\Widget\Widget->register_field_name('_title')
+#2 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(72): Carbon_Fields\Widget\Widget->add_fields(Array)
+#3 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\Widgets\Blocks\PagesWidget.php(15): Carbon_Fields\Widget\Widget->setup('carbon_fields_p...', 'Lisfinity > Pag...', 'Used to display...', Array)
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-widget-factory.php(62): Lisfinity\Widgets\Blocks\PagesWidget->__construct()
+#5 C:\xampp\htdocs\barangayAds\wp-includes\widgets.php(115): WP_Widget_Factory->register('Lisfinity\\Widge...')
+#6 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\Widgets\Widgets.php(18): register_widget('Lisfinity\\Widge...')
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): Lisfinity\Widgets\Widgets->register_widgets('')
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\barangayAds\wp-includes\widgets.php(1854): do_action('widgets_init')
+#11 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#12 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\barangayAds\wp-settings.php(617): do_action('init')
+#15 C:\xampp\htdocs\barangayAds\wp-config.php(99): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\barangayAds\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\barangayAds\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\barangayAds\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#19 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Exception\Incorrect_Syntax_Exception.php on line 22
+
+2022-11-12T09:32:26+00:00 CRITICAL Uncaught Carbon_Fields\Exception\Incorrect_Syntax_Exception: Field name "_title" already registered in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Exception\Incorrect_Syntax_Exception.php:22
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(213): Carbon_Fields\Exception\Incorrect_Syntax_Exception::raise('Field name "_ti...')
+#1 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(196): Carbon_Fields\Widget\Widget->register_field_name('_title')
+#2 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(72): Carbon_Fields\Widget\Widget->add_fields(Array)
+#3 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\Widgets\Blocks\PagesWidget.php(15): Carbon_Fields\Widget\Widget->setup('carbon_fields_p...', 'Lisfinity > Pag...', 'Used to display...', Array)
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-widget-factory.php(62): Lisfinity\Widgets\Blocks\PagesWidget->__construct()
+#5 C:\xampp\htdocs\barangayAds\wp-includes\widgets.php(115): WP_Widget_Factory->register('Lisfinity\\Widge...')
+#6 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\Widgets\Widgets.php(18): register_widget('Lisfinity\\Widge...')
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): Lisfinity\Widgets\Widgets->register_widgets('')
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\barangayAds\wp-includes\widgets.php(1854): do_action('widgets_init')
+#11 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#12 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\barangayAds\wp-settings.php(617): do_action('init')
+#15 C:\xampp\htdocs\barangayAds\wp-config.php(99): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\barangayAds\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\barangayAds\wp-cron.php(46): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Exception\Incorrect_Syntax_Exception.php on line 22
+
+2022-11-12T09:33:05+00:00 CRITICAL Uncaught Carbon_Fields\Exception\Incorrect_Syntax_Exception: Field name "_title" already registered in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Exception\Incorrect_Syntax_Exception.php:22
+Stack trace:
+#0 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(213): Carbon_Fields\Exception\Incorrect_Syntax_Exception::raise('Field name "_ti...')
+#1 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(196): Carbon_Fields\Widget\Widget->register_field_name('_title')
+#2 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Widget\Widget.php(72): Carbon_Fields\Widget\Widget->add_fields(Array)
+#3 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\Widgets\Blocks\PagesWidget.php(15): Carbon_Fields\Widget\Widget->setup('carbon_fields_p...', 'Lisfinity > Pag...', 'Used to display...', Array)
+#4 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-widget-factory.php(62): Lisfinity\Widgets\Blocks\PagesWidget->__construct()
+#5 C:\xampp\htdocs\barangayAds\wp-includes\widgets.php(115): WP_Widget_Factory->register('Lisfinity\\Widge...')
+#6 C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\includes\src\Widgets\Widgets.php(18): register_widget('Lisfinity\\Widge...')
+#7 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): Lisfinity\Widgets\Widgets->register_widgets('')
+#8 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\barangayAds\wp-includes\widgets.php(1854): do_action('widgets_init')
+#11 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#12 C:\xampp\htdocs\barangayAds\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\barangayAds\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\barangayAds\wp-settings.php(617): do_action('init')
+#15 C:\xampp\htdocs\barangayAds\wp-config.php(99): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\barangayAds\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\barangayAds\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\barangayAds\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#19 {main}
+  thrown in C:\xampp\htdocs\barangayAds\wp-content\plugins\lisfinity-core\vendor\htmlburger\carbon-fields\core\Exception\Incorrect_Syntax_Exception.php on line 22
+
+2022-11-12T10:54:24+00:00 CRITICAL Cannot redeclare wp_cache_add() (previously declared in C:\xampp\htdocs\barangayAds\wp-includes\cache.php:41) in C:\xampp\htdocs\barangayAds\wp-content\plugins\memcached\object-cache.php on line 19
+
+2022-11-12T10:54:32+00:00 CRITICAL Cannot redeclare wp_cache_add() (previously declared in C:\xampp\htdocs\barangayAds\wp-includes\cache.php:41) in C:\xampp\htdocs\barangayAds\wp-content\plugins\memcached\object-cache.php on line 19
+
+2022-11-12T10:54:32+00:00 CRITICAL Cannot redeclare wp_cache_add() (previously declared in C:\xampp\htdocs\barangayAds\wp-includes\cache.php:41) in C:\xampp\htdocs\barangayAds\wp-content\plugins\memcached\object-cache.php on line 19
+
+2022-11-12T11:12:30+00:00 CRITICAL Cannot redeclare wp_cache_add() (previously declared in C:\xampp\htdocs\barangayAds\wp-includes\cache.php:41) in C:\xampp\htdocs\barangayAds\wp-content\plugins\memcached\object-cache.php on line 19
+
+2022-11-12T11:12:36+00:00 CRITICAL Cannot redeclare wp_cache_add() (previously declared in C:\xampp\htdocs\barangayAds\wp-includes\cache.php:41) in C:\xampp\htdocs\barangayAds\wp-content\plugins\memcached\object-cache.php on line 19
+
+2022-11-12T11:12:37+00:00 CRITICAL Cannot redeclare wp_cache_add() (previously declared in C:\xampp\htdocs\barangayAds\wp-includes\cache.php:41) in C:\xampp\htdocs\barangayAds\wp-content\plugins\memcached\object-cache.php on line 19
+
+2022-11-12T11:13:04+00:00 CRITICAL Cannot redeclare wp_cache_add() (previously declared in C:\xampp\htdocs\barangayAds\wp-includes\cache.php:41) in C:\xampp\htdocs\barangayAds\wp-content\plugins\memcached\object-cache.php on line 19
+
+2022-11-12T11:13:11+00:00 CRITICAL Cannot redeclare wp_cache_add() (previously declared in C:\xampp\htdocs\barangayAds\wp-includes\cache.php:41) in C:\xampp\htdocs\barangayAds\wp-content\plugins\memcached\object-cache.php on line 19
+
+2022-11-12T11:13:12+00:00 CRITICAL Cannot redeclare wp_cache_add() (previously declared in C:\xampp\htdocs\barangayAds\wp-includes\cache.php:41) in C:\xampp\htdocs\barangayAds\wp-content\plugins\memcached\object-cache.php on line 19
+
+2022-11-12T14:12:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\barangayAds\wp-includes\class-wpdb.php on line 2187
+
+2022-11-12T14:19:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\barangayAds\wp-includes\class-wpdb.php on line 2187
+
+2022-11-12T15:24:16+00:00 CRITICAL Out of memory (allocated 104857600) (tried to allocate 20480 bytes) in C:\xampp\htdocs\barangayAds\wp-content\plugins\woocommerce\src\Internal\Traits\AccessiblePrivateMethods.php on line 158
+

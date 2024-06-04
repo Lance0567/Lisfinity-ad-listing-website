@@ -1,0 +1,6 @@
+2022-11-11T07:36:57+00:00 CRITICAL Out of memory (allocated 81788928) (tried to allocate 32768 bytes) in C:\xampp\htdocs\barangayAds\wp-content\plugins\redux-framework\redux-core\inc\classes\class-redux-filesystem.php on line 710
+
+2022-11-11T09:40:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\barangayAds\wp-includes\class-wpdb.php on line 2187
+
+2022-11-11T13:26:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\barangayAds\wp-admin\includes\user.php on line 670
+
